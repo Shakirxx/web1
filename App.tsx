@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Comparison from './components/Comparison';
 import Pricing from './components/Pricing';
+import Reviews from './components/Reviews';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Hero />
         <Features />
         <Comparison />
+        <Reviews />
         <Pricing />
       </main>
       <Footer />

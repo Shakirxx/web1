@@ -1,5 +1,5 @@
 import { ShieldCheck, Eye, Bell, Lock, FileText, Clock, Zap } from 'lucide-react';
-import { Feature, PricingPlan, ComparisonItem } from './types';
+import { Feature, PricingPlan, ComparisonItem, Review } from './types';
 
 export const FEATURES: Feature[] = [
   {
@@ -115,6 +115,36 @@ export const COMPARISON_DATA: ComparisonItem[] = [
     guard: 'Limited shift hours',
     remote: '24/7 Continuous Availability',
   },
+];
+
+export const CLIENT_REVIEWS: Review[] = [
+  {
+    id: '1',
+    name: 'Michael Ross',
+    role: 'Warehouse Owner',
+    location: 'Texas, USA',
+    content: "We used to pay over $4,000 a month for physical guards who often fell asleep. VisionsDigi cut our costs to $499 and they actually caught a break-in attempt last week. Police arrived in minutes.",
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200',
+    rating: 5
+  },
+  {
+    id: '2',
+    name: 'Sarah Jenkins',
+    role: 'Retail Store Manager',
+    location: 'Toronto, Canada',
+    content: "The daily reports are a game changer. I know exactly what happens in my store when I'm not there. The peace of mind is worth every penny.",
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200',
+    rating: 5
+  },
+  {
+    id: '3',
+    name: 'David Chen',
+    role: 'Construction Site Lead',
+    location: 'Vancouver, Canada',
+    content: "Construction sites are easy targets for theft. Since switching to this remote monitoring, we haven't lost a single piece of equipment. Highly recommended.",
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200',
+    rating: 5
+  }
 ];
 
 export const CONTACT_INFO = {

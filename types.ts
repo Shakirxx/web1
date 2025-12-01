@@ -21,3 +21,13 @@ export interface ComparisonItem {
   guard: string;
   remote: string;
 }
+
+export interface Review {
+  id: string;
+  name: string;
+  role: string;
+  location: string;
+  content: string;
+  image: string;
+  rating: number;
+}
